@@ -3,10 +3,9 @@ import { GifListItemComponent } from "./gif-list-item/gif-list-item.component";
 import { Gif } from '../../interfaces/gif.interface';
 
 @Component({
-  selector: 'gif-list',
-  standalone: true,
-  imports: [GifListItemComponent],
-  templateUrl: './gif-list.Component.html'
+    selector: 'gif-list',
+    imports: [GifListItemComponent],
+    templateUrl: './gif-list.Component.html'
 })
 export class GifListComponent { 
 

@@ -10,10 +10,9 @@ interface MenuOption {
 }
 
 @Component({
-  selector: 'gifs-side-menu-options',
-  standalone: true,
-  imports: [RouterLink,RouterLinkActive],
-  templateUrl: './side-menu-options.component.html'
+    selector: 'gifs-side-menu-options',
+    imports: [RouterLink, RouterLinkActive],
+    templateUrl: './side-menu-options.component.html'
 })
 export class SideMenuOptionsComponent {
 

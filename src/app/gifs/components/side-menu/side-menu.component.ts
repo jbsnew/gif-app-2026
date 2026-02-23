@@ -3,9 +3,8 @@ import { SideMenuHeaderComponent } from '../side-menu-header/side-menu-header.co
 import { SideMenuOptionsComponent } from '../side-menu-options/side-menu-options.component';
 
 @Component({
-  selector: 'gifs-side-menu',
-  standalone: true,
-  imports: [SideMenuHeaderComponent, SideMenuOptionsComponent],
-  templateUrl: './side-menu.component.html'
+    selector: 'gifs-side-menu',
+    imports: [SideMenuHeaderComponent, SideMenuOptionsComponent],
+    templateUrl: './side-menu.component.html'
 })
 export class SideMenuComponent { }

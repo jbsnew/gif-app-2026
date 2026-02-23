@@ -6,10 +6,9 @@ import { GifsService } from '../../services/gifs.service';
 import { GifListComponent } from "../../components/git-list/gif-list.component";
 
 @Component({
-  selector: 'page-gif-history',
-  standalone: true,
-  imports: [GifListComponent],
-  templateUrl: './gif-history.component.html'
+    selector: 'page-gif-history',
+    imports: [GifListComponent],
+    templateUrl: './gif-history.component.html'
 })
 export default class GifHistoryComponent {
   //query1 = inject(ActivatedRoute).params.subscribe(params => console.log(params['query']));
