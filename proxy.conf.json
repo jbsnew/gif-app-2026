@@ -1,0 +1,10 @@
+{
+  "/giphy": {
+    "target": "https://api.giphy.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/giphy": ""
+    }
+  }
+}
